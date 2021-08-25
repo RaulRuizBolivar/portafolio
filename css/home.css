@@ -1,24 +1,3 @@
-:root{
-    --rojo-letra: #EA0F1E;
-    --blanco-letra: #FFFFFF;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html{
-    font-size: 62.5%;
-    font-family: 'Inter', sans-serif;
-}
-body{
-    background-color: black;
-    color: var(--blanco-letra);
-}
-a{
-    text-decoration: none;
-    color: var(--blanco-letra);
-}
 body section{
     width: 80%;
     height: 100vh;
