@@ -29,6 +29,12 @@ header.navbar{
     justify-content: flex-end;
 }
 header.navbar nav{
-    margin-right: 30px;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 960px;
+    min-width: 320px;
     font-size: 2rem;
+}
+header.navbar nav h3{
+    text-align: right;
 }
