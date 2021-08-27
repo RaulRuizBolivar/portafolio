@@ -1,0 +1,13 @@
+header.navbar{
+    height: 120px;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+header.navbar nav{
+    margin-right: 30px;
+    font-size: 2rem;
+}

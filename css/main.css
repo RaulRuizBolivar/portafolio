@@ -1,6 +1,7 @@
 :root{
     --rojo-letra: #EA0F1E;
     --blanco-letra: #FFFFFF;
+    --negro: #000000;
 }
 *{
     margin: 0;
@@ -12,23 +13,10 @@ html{
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-color: black;
+    background-color: var(--negro);
     color: var(--blanco-letra);
 }
 a{
     text-decoration: none;
     color: var(--blanco-letra);
-}
-header.navbar{
-    height: 120px;
-    width: 100vw;
-    position: fixed;
-    top: 0px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-header.navbar nav{
-    margin-right: 30px;
-    font-size: 2rem;
 }
