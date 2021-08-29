@@ -5,6 +5,7 @@ body section{
     margin: 0 auto;
 }
 body nav{
+    transition: all .5s ease-out;
     height: 100vh;
     width: 80vw;
     min-width: 320px;
@@ -16,7 +17,8 @@ body nav{
 body nav h1{
     font-size: 18rem;
 }
-body nav h1 div a,span{
+body nav h1 div a,
+body nav h1 div span{
     color: var(--rojo-letra);
 }
 body nav h1 div:hover span{
@@ -27,10 +29,11 @@ body nav h1 div a{
 }
 body nav h1 div:hover a{
     display: inherit;
-    animation: deslizar-derrecha .5s ease-out;
-    animation-fill-mode: forwards;
+    /*transform: translateX(100px);*/
+    animation: deslizar-derrecha .5s ease-out forwards;
 }
-body nav h1 div a.first,span.first{
+body nav h1 div a.first,
+span.first{
     color: var(--blanco-letra);
 }
 body .bg-home{
