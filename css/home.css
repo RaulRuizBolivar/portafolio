@@ -29,7 +29,6 @@ body nav h1 div a{
 }
 body nav h1 div:hover a{
     display: inherit;
-    /*transform: translateX(100px);*/
     animation: deslizar-derrecha .5s ease-out forwards;
 }
 body nav h1 div a.first,
