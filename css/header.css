@@ -10,7 +10,7 @@ header.navbar{
 header.navbar nav{
     font-size: 2rem;
     width: 90%;
-    max-width: 1400px;
+    max-width: 1900px;
     display: flex;
     justify-content: flex-end;
 }
