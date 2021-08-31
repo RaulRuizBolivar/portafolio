@@ -1,13 +1,13 @@
 main{
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-top: 250px;
-    width: 90vw;
-    max-width: 1600px;
 }
 main div.title{
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 1600px;
     display: flex;
     align-items: center;
     max-width: 1600px;
@@ -15,4 +15,10 @@ main div.title{
 }
 main div.title h2 {
     font-size: 12rem;
+}
+main img{
+    object-fit: cover;
+    height: 70vh;
+    width: 70vw;
+    margin-left: auto;
 }
