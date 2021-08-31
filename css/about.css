@@ -7,12 +7,10 @@ main{
 main div.title{
     margin: 0 auto;
     width: 90vw;
-    max-width: 1600px;
     display: flex;
     align-items: center;
-    max-width: 1600px;
+    max-width: 1500px;
     height: 75vh;
-    padding-bottom: 50px;
 }
 main div.title h2 {
     font-size: 12rem;
