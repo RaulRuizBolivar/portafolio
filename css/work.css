@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+}
+main article{
+    width: 100vw;
+    max-width: 1500px;
+    margin: 50px auto;
+    transition: padding-left 250ms ease-in;
+}
+main article h2{
+    font-size: 10rem;
+}
+main article h3{
+    font-size: 1.6rem;
+    color: var(--rojo-letra);
+}
+main article:hover{
+    padding-left: 100px;
+}
