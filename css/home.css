@@ -15,21 +15,33 @@ body nav{
     padding: 50px;
 }
 body nav h1{
-    font-size: 18rem;
+    font-size: 16rem;
+}
+body section nav div{
+    transition: padding-left 450ms ease 50ms;
+    position: static;
+}
+body section nav div:hover{
+    padding-left: 100px;
 }
 body nav h1 div a,
 body nav h1 div span{
     color: var(--rojo-letra);
+    transition: opacity 350ms ease;
+}
+body nav h1 div span{
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
 }
 body nav h1 div:hover span{
-    display: none;
+    opacity: 0;
 }
 body nav h1 div a{
-    display: none;
+    opacity:0;
 }
 body nav h1 div:hover a{
-    display: inherit;
-    animation: deslizar-derrecha .5s ease-out forwards;
+    opacity: 1;
 }
 body nav h1 div a.first,
 span.first{
@@ -46,12 +58,4 @@ body .bg-home{
     right: 0px;
     top: 0px;
     z-index: -9;
-}
-@keyframes deslizar-derrecha{
-    0%{
-        transform: translateX(0px);
-    }
-    100%{
-        transform: translateX(100px);
-    }
 }
