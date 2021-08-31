@@ -12,6 +12,7 @@ main div.title{
     align-items: center;
     max-width: 1600px;
     height: 80vh;
+    padding-bottom: 250px;
 }
 main div.title h2 {
     font-size: 12rem;
@@ -21,4 +22,28 @@ main img{
     height: 70vh;
     width: 70vw;
     margin-left: auto;
+}
+main article{
+    width: 100vw;
+    max-width: 1600px;
+    margin: 250px auto;
+    text-align: justify;
+    font-size: 2rem;
+}
+main article h2{
+    font-size: 8rem;
+}
+main article h3{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+main article p{
+    margin-bottom: 15px;
+}
+main article a{
+    color: var(--rojo-letra);
+    transition: margin-left 250ms ease-in; 
+}
+main article a:hover{
+    margin-left: 50px;
 }
