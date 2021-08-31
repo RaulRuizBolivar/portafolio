@@ -18,7 +18,7 @@ span.second-names{
     opacity: 0;
 }
 header.navbar nav , header.navbar nav span.second-names{
-    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+    transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
 }
 header.navbar nav:hover , header.navbar nav:hover span.second-names,
 header.navbar nav:focus , header.navbar nav:focus span.second-names{
