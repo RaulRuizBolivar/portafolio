@@ -23,7 +23,7 @@ main img{
 }
 main article{
     width: 100vw;
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 250px auto;
     text-align: justify;
     font-size: 2rem;
