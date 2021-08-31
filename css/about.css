@@ -7,10 +7,9 @@ main{
 main div.title{
     margin: 0 auto;
     width: 90vw;
-    max-width: 1500px;
     display: flex;
     align-items: center;
-    max-width: 1600px;
+    max-width: 1500px;
     height: 80vh;
 }
 main div.title h2 {
