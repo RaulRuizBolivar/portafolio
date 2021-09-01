@@ -5,20 +5,20 @@ body section{
     margin: 0 auto;
 }
 body nav{
-    transition: all .5s ease-out;
+    transition: all var(--velocidad) ease-in var(--retraso);
     height: 100vh;
     width: 80vw;
     min-width: 320px;
-    max-width: 960px;
+    max-width: var(--ancho);
     display: flex;
     align-items: center;
     padding: 50px;
 }
 body nav h1{
-    font-size: 16rem;
+    font-size: var(--titulo1);
 }
 body section nav div{
-    transition: padding-left 450ms ease 50ms;
+    transition: padding-left var(--velocidad) ease-in var(--retraso);
     position: static;
 }
 body section nav div:hover{
@@ -27,7 +27,7 @@ body section nav div:hover{
 body nav h1 div a,
 body nav h1 div span{
     color: var(--rojo-letra);
-    transition: opacity 350ms ease;
+    transition: opacity var(--velocidad) ease-in var(--retraso);
 }
 body nav h1 div span{
     opacity: 1;

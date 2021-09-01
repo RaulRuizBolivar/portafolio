@@ -1,20 +1,14 @@
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 250px;
-}
 main article{
     width: 100vw;
-    max-width: 1500px;
+    max-width: var(--ancho);
     margin: 50px auto;
-    transition: padding-left 250ms ease-in;
+    transition: padding-left var(--velocidad) ease-in var(--retraso);
 }
 main article h2{
-    font-size: 10rem;
+    font-size: var(--titulo2);
 }
 main article h3{
-    font-size: 1.6rem;
+    font-size: var(--parrafo);
     color: var(--rojo-letra);
 }
 main article:hover{

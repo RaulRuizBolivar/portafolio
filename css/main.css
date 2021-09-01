@@ -2,7 +2,13 @@
     --rojo-letra: #EA0F1E;
     --blanco-letra: #FFFFFF;
     --negro: #000000;
-    --ancho: 1500px;
+    --ancho: 1250px;
+    --velocidad: 200ms;
+    --retraso: 50ms;
+    --animacion: ease-in;
+    --titulo1: 16rem;
+    --titulo2: 12rem;
+    --parrafo: 1.6rem;
 }
 *{
     margin: 0;
@@ -23,4 +29,11 @@ a{
 }
 p{
     font-family: 'Montserrat', sans-serif;
+    line-height: 2.2rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
 }

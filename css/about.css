@@ -1,19 +1,13 @@
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 180px;
-}
 main div.title{
     margin: 0 auto;
     width: 90vw;
     display: flex;
     align-items: center;
-    max-width: 1500px;
+    max-width: var(--ancho);
     height: 75vh;
 }
 main div.title h2 {
-    font-size: 12rem;
+    font-size: var(--titulo2);
 }
 main img{
     object-fit: cover;
@@ -23,20 +17,20 @@ main img{
 }
 main article{
     width: 100vw;
-    max-width: 1500px;
+    max-width: var(--ancho);
     margin: 250px auto;
     text-align: justify;
-    font-size: 2rem;
+    font-size: var(--parrafo);
 }
 main article.contact{
     margin: 0 auto;
     margin-bottom: 250px;
 }
 main article h2{
-    font-size: 8rem;
+    font-size: var(--titulo2);
 }
 main article h3{
-    font-size: 2.5rem;
+    font-size: var(--parrafo);
     margin-bottom: 15px;
 }
 main article p{
@@ -44,7 +38,7 @@ main article p{
 }
 main article a{
     color: var(--rojo-letra);
-    transition: padding-left 250ms ease-in;
+    transition: padding-left var(--velocidad) ease-in var(--retraso);
     display: block; 
     margin-bottom: 25px;
 }
