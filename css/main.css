@@ -2,13 +2,13 @@
     --rojo-letra: #EA0F1E;
     --blanco-letra: #FFFFFF;
     --negro: #000000;
-    --ancho: 1250px;
+    --ancho: 1150px;
     --velocidad: 200ms;
     --retraso: 50ms;
     --animacion: ease-in;
     --titulo1: 16rem;
     --titulo2: 12rem;
-    --parrafo: 1.6rem;
+    --parrafo: 2.5rem;
 }
 *{
     margin: 0;
@@ -29,7 +29,7 @@ a{
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    line-height: 2.2rem;
+    line-height: 3.2rem;
 }
 main{
     display: flex;
