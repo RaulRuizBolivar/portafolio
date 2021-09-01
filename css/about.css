@@ -30,6 +30,7 @@ main article{
 }
 main article.contact{
     margin: 0 auto;
+    margin-bottom: 250px;
 }
 main article h2{
     font-size: 8rem;
