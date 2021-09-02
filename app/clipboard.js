@@ -1,4 +1,4 @@
 function copyClipboard(id){
     let elemento = document.getElementById(id);
-    Navigator.clipboard.writeText(elemento.id);
+    navigator.clipboard.writeText(elemento.id);
 }
