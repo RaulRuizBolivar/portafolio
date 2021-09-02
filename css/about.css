@@ -48,3 +48,6 @@ main article a{
     display: block; 
     margin-bottom: 25px;
 }
+div.link{
+    height: 45px;
+}
