@@ -24,7 +24,7 @@ body nav h1 div span.first{
 }
 body .bg-home{
     height: 100vh;
-    width: 60%;
+    width: 50%;
     min-width: 250px;
     background-image: url("../assets/raul-home.png");
     background-repeat: no-repeat;
