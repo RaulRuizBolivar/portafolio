@@ -2,12 +2,19 @@ main div.title{
     margin: 0 auto;
     width: 90vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
     max-width: var(--ancho);
     height: 75vh;
 }
 main div.title h2 {
     font-size: var(--titulo2);
+}
+main h3{
+    font-size: var(--parrafo);
+    padding-left: 5px;
 }
 main img{
     object-fit: cover;

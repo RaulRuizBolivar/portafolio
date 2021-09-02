@@ -2,6 +2,7 @@
     --rojo-letra: #EA0F1E;
     --blanco-letra: #FFFFFF;
     --negro: #000000;
+    --gris: #dddddd;
     --ancho: 1150px;
     --velocidad: 200ms;
     --retraso: 50ms;
@@ -36,4 +37,22 @@ main{
     justify-content: center;
     flex-direction: column;
     padding-top: 250px;
+}
+.quote{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+.quote::before{
+    content: '';
+    height: 80%;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--gris);
 }
