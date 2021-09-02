@@ -2,7 +2,6 @@ main article{
     width: 100vw;
     max-width: var(--ancho);
     margin: 50px auto;
-    transition: padding-left var(--velocidad) ease-in var(--retraso);
 }
 main article h2{
     font-size: var(--titulo2);

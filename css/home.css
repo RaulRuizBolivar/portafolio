@@ -16,35 +16,10 @@ body nav{
 }
 body nav h1{
     font-size: var(--titulo1);
-}
-body section nav div{
-    transition: padding-left var(--velocidad) ease-in var(--retraso);
-    position: static;
-}
-body section nav div:hover{
-    padding-left: 100px;
-}
-body nav h1 div a,
-body nav h1 div span{
     color: var(--rojo-letra);
-    transition: opacity var(--velocidad) ease-in var(--retraso);
-}
-body nav h1 div span{
-    opacity: 1;
-    position: absolute;
-    z-index: -1;
-}
-body nav h1 div:hover span{
-    opacity: 0;
-}
-body nav h1 div a{
-    opacity:0;
-}
-body nav h1 div:hover a{
-    opacity: 1;
 }
 body nav h1 div a.first,
-span.first{
+body nav h1 div span.first{
     color: var(--blanco-letra);
 }
 body .bg-home{

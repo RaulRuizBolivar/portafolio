@@ -38,10 +38,6 @@ main article p{
 }
 main article a{
     color: var(--rojo-letra);
-    transition: padding-left var(--velocidad) ease-in var(--retraso);
     display: block; 
     margin-bottom: 25px;
-}
-main article a:hover{
-    padding-left: 50px;
 }
