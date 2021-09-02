@@ -56,3 +56,6 @@ main{
     bottom: 0;
     background-color: var(--gris);
 }
+.link{
+    cursor: pointer;
+}

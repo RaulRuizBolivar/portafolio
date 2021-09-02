@@ -51,11 +51,17 @@ div.transition-opacity span{
     position: absolute;
     z-index: -1;
 }
+div.transition-opacity span.link{
+    opacity:0;
+}
 div.transition-opacity a{
     opacity: 0;
 }
 div.transition-opacity:hover span{
     opacity: 0;
+}
+div.transition-opacity:hover span.link{
+    opacity: 1;
 }
 div.transition-opacity:hover a{
     opacity: 1;
