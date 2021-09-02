@@ -14,14 +14,3 @@ header.navbar nav{
     display: flex;
     justify-content: flex-end;
 }
-span.second-names{
-    opacity: 0;
-}
-header.navbar nav , header.navbar nav span.second-names{
-    transition: opacity var(--velocidad) ease-in var(--retraso), transform var(--velocidad) ease-in var(--retraso);
-}
-header.navbar nav:hover , header.navbar nav:hover span.second-names,
-header.navbar nav:focus , header.navbar nav:focus span.second-names{
-    opacity: 1;
-    transform: translateX(-100px);
-}

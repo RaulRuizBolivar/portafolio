@@ -1,0 +1,62 @@
+/*
+* Transiciones del header
+*/
+header.navbar nav span.second-names{
+    opacity: 0;
+}
+header.navbar nav , header.navbar nav span.second-names{
+    transition: opacity var(--velocidad) ease-in var(--retraso), padding-right var(--velocidad) ease-in var(--retraso);
+}
+header.navbar nav:hover , header.navbar nav:hover span.second-names,
+header.navbar nav:focus , header.navbar nav:focus span.second-names{
+    opacity: 1;
+    padding-right: 50px;
+}
+
+
+
+/*
+* Transiciones de traslado
+*/
+.transition-left{
+    transition: padding-left var(--velocidad) ease-in var(--retraso);
+}
+div.transition-left{
+    transition: padding-left var(--velocidad) ease-in var(--retraso);
+    position: static;
+}
+.transition-left:hover{
+    padding-left: 100px;
+}
+.transition-mini{
+    transition: padding-left var(--velocidad) ease-in var(--retraso);
+}
+.transition-mini:hover,
+div.transition-left.transition-mini:hover{
+    padding-left: 50px;
+}
+
+
+
+/*
+* Transiciones de opacidad
+*/
+div.transition-opacity a,
+div.transition-opacity span{
+    color: var(--rojo-letra);
+    transition: opacity var(--velocidad) ease-in var(--retraso);
+}
+div.transition-opacity span{
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+div.transition-opacity a{
+    opacity: 0;
+}
+div.transition-opacity:hover span{
+    opacity: 0;
+}
+div.transition-opacity:hover a{
+    opacity: 1;
+}
