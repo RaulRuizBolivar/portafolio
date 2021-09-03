@@ -9,10 +9,12 @@ main div.title{
     width: 90vw;
     max-width: 1600px;
     display: flex;
-    align-items: center;
-    max-width: 1600px;
-    height: 80vh;
-    padding-bottom: 250px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    max-width: var(--ancho);
+    height: 50vh;
 }
 main div.title h2 {
     font-size: 12rem;
