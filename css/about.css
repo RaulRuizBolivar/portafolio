@@ -1,13 +1,14 @@
 main div.title{
     margin: 0 auto;
     width: 90vw;
+    max-width: 1600px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     text-align: left;
     max-width: var(--ancho);
-    height: 75vh;
+    height: 50vh;
 }
 main div.title h2 {
     font-size: var(--titulo2);
