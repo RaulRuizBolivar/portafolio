@@ -60,3 +60,14 @@ div.transition-opacity:hover span{
 div.transition-opacity:hover a{
     opacity: 1;
 }
+
+
+
+/*
+* Transiciones de color
+*/
+
+input[type=button]:hover{
+    color: var(--rojo-letra);
+    border: 2px solid var(--rojo-letra);
+}

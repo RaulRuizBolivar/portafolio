@@ -37,3 +37,29 @@ main{
     flex-direction: column;
     padding-top: 250px;
 }
+textarea{
+    resize: vertical;
+    height: 200px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type=button],
+input[type=text],
+textarea{
+    display: inline-block;
+    padding: 10px;
+    color: var(--blanco-letra);
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: var(--negro);
+    border: 2px solid var(--blanco-letra);
+    border-radius: 4px;
+    font-size: var(--parrafo);
+}
+input[type=button]{
+    cursor: pointer;
+    transition: all var(--velocidad) ease-in var(--retraso);
+}
