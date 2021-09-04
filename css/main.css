@@ -40,6 +40,8 @@ main{
 textarea{
     resize: vertical;
     height: 200px;
+    min-height: 150px;
+    max-height: 500px;
 }
 form{
     display: flex;
