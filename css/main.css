@@ -82,6 +82,7 @@ textarea{
     border: 2px solid var(--blanco-letra);
     border-radius: 4px;
     font-size: var(--parrafo);
+    outline: none;
 }
 input[type=button]{
     cursor: pointer;

@@ -72,8 +72,26 @@ div.transition-opacity:hover a{
 /*
 * Transiciones de color
 */
-
-input[type=button]:hover{
+input[type=button],
+input[type=text]::placeholder,
+input[type=text],
+textarea,
+textarea::placeholder{
+    transition: color var(--velocidad) ease-in var(--retraso),
+                border var(--velocidad) ease-in var(--retraso);
+}
+input[type=button]:hover,
+input[type=button]:focus,
+input[type=text]:hover,
+input[type=text]:focus,
+textarea:hover,
+textarea:focus{
     color: var(--rojo-letra);
     border: 2px solid var(--rojo-letra);
+}
+input[type=text]:hover::placeholder,
+input[type=text]:focus::placeholder,
+textarea:hover::placeholder,
+textarea:focus::placeholder{
+    color: var(--rojo-letra);
 }
